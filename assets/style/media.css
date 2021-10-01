@@ -1,0 +1,145 @@
+/* ---------> 1348 */
+
+@media(max-width:1348px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+
+/* ------------> 1024 */
+
+@media(max-width:1024px) {
+    .container {
+        max-width: 768px;
+    }
+    .footer-top .container {
+        display: flex;
+        gap: 0 10px;
+    }
+    .catalog .cards,
+    .catalog2 .cards,
+    .catalog3 .cards {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .header-nav .menu li {
+        padding: 49px 30px 36px 0;
+    }
+    .footer-top .footer-top-btn button {
+        width: 234px;
+        margin: 10px 0;
+        font-size: 17px;
+    }
+    .footer-top .footer-checkbox .input-right {
+        margin: 10px 0;
+    }
+}
+
+@media(max-width:768px) {
+    .container {
+        max-width: 425px;
+    }
+    .header {
+        position: fixed;
+    }
+    .header-top {
+        height: 100px;
+    }
+    .header-top,
+    .header-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header-top .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .header-top .logo img {
+        width: 100%;
+        max-width: 220px;
+    }
+    .header-nav .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+    .header-nav .search {
+        margin-bottom: 20px;
+        margin-left: -5px;
+    }
+    .header-nav .menu li {
+        padding: 25px 0;
+    }
+    .header-top .burger {
+        display: block;
+        cursor: pointer;
+    }
+    .header-nav,
+    .header-top .info {
+        display: none;
+    }
+    .header-top #toggle:checked+.header-nav {
+        display: block;
+    }
+    .catalog .cards,
+    .catalog2 .cards,
+    .catalog3 .cards {
+        display: flex;
+        justify-content: center;
+    }
+    .footer .footer-title {
+        font-size: 30px;
+    }
+    .footer-top .checkbox-text {
+        font-size: 17px;
+    }
+    .footer-top .footer-checkbox .input-right {
+        margin: 10px 0;
+    }
+}
+
+@media(max-width:425px) {
+    .container {
+        width: 100%;
+    }
+    .footer-top .footer-top-img img {
+        display: none;
+    }
+    .cards {
+        display: flex;
+        justify-content: center;
+    }
+    .card {
+        width: 310px;
+    }
+    .card-image img {
+        width: 290px;
+    }
+    .catalog {
+        padding: 50px 0px;
+    }
+    .catalog2 .card,
+    .catalog3 .card {
+        width: 300px;
+    }
+    .card-title .title {
+        font-size: 18px;
+    }
+    .card-title .price {
+        font-size: 17px;
+    }
+    .card-btn {
+        width: 150px;
+        height: 35px;
+        font-size: 16px;
+    }
+    .new-product {
+        border: none;
+        margin: 0 12px 0 172px;
+    }
+}
