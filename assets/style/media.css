@@ -42,11 +42,12 @@
     }
     .header {
         position: fixed;
+        width: 100%;
     }
     .header-top {
         height: 100px;
+        width: 100%;
     }
-    .header-top,
     .header-nav {
         display: flex;
         flex-direction: column;
